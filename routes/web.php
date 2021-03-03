@@ -25,7 +25,7 @@ Route::get('/', function() {
 
 // Route::get('/', [HomeController::class, 'home']);
 Route::get('/category', function (){
-    return view('program');
+    return view('product');
 });
 // Route::get('/category', [HomeController::class, 'products']);
 Route::prefix('category')->group(function (){
